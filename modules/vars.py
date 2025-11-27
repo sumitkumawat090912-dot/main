@@ -3,16 +3,16 @@
 import os
 from os import environ
 
-API_ID = int(environ.get("API_ID", "29899250"))
-API_HASH = environ.get("API_HASH", "611d045796c79af3e5ddfa3d6fd536a7")
-BOT_TOKEN = environ.get("BOT_TOKEN", "8301968841:AAGTyxR-kGwtwYHBnRqWITpOLT2NH3SkW0I")
+API_ID = int(environ.get("API_ID", "31395423"))
+API_HASH = environ.get("API_HASH", "999a69fc0508d2624327fb2307955ac1")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8356983096:AAHRn-XM3IpI6SeQX9lFsJLeGeZ7FlCd6aE")
 
 OWNER = int(environ.get("OWNER", "8251679097"))
-CREDIT = environ.get("CREDIT", "@ll_kumawat_ll")
+CREDIT = environ.get("CREDIT", "@owner_pandit_ji")
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 
-TOTAL_USER = os.environ.get('TOTAL_USERS', '8251679097,8459072828').split(',')
-TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]
+TOTAL_USER = os.environ.get('TOTAL_USERS', '8251679097).split(',')
+TOTAL_USERS = [int(@owner_pandit_ji) for user_id in TOTAL_USER]
 
 AUTH_USER = os.environ.get('AUTH_USERS', '8251679097,8459072828').split(',')
 AUTH_USERS = [int(user_id) for user_id in AUTH_USER]
